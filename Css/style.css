@@ -1,0 +1,55 @@
+@font-face {
+    font-family: sansbold;
+    src: url(../fonts/Tisa\ Sans\ Pro\ Bold.ttf);
+}
+@font-face {
+    font-family: sansregular;
+    src: url(../fonts/Tisa\ Sans\ Pro\ Regular.ttf);
+}
+body{
+    direction: rtl;
+    text-align: right;
+    background-color: rgb(182, 182, 182);
+}
+.navbar-brand{
+    font-family: sansbold;
+    font-size: 30px;
+}
+.btn-primary{
+    background-color: #003DA5;
+}
+.btn{
+    font-family: sansregular;
+    font-size: 16px;
+    color: white;
+    border-color: #003DA5;
+    margin-right: 8px;
+}
+.btn:hover{
+    background-color: #003DA5;
+    border: #003DA5;
+}
+.form-control{
+    font-family: sansregular;
+    font-size: 15px;
+}
+.navbar-nav{
+    margin-right:0 !important;
+    font-size: 25px;
+    font-family: sansregular;
+}
+.dropdown-menu{
+    font-family: sansregular;
+}
+.carousel-indicators{
+    direction: ltr;
+}
+#container1{
+    margin-top: 50px;
+}
+.nav-link{
+    color: white;
+}
+.card{
+    display: inline-block !important;
+}
